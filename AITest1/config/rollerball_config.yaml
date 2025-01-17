@@ -1,4 +1,4 @@
-﻿behaviors:
+behaviors:
   RollerBall:
     trainer_type: ppo
     hyperparameters:

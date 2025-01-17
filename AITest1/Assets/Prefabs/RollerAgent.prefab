@@ -186,7 +186,6 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   Target: {fileID: 0}
-  Enemy: {fileID: 0}
   forceMultiplier: 10
 --- !u!114 &8928046028591035248
 MonoBehaviour:
