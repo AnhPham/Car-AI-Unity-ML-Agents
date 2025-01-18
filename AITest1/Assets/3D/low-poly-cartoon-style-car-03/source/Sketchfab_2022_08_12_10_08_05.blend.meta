@@ -3,7 +3,27 @@ guid: 742ab818b17224b90a81fc42b750d0ec
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyEmission
+    second: {fileID: 2100000, guid: f97e59c322d6e45e78694de26a8619f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyGlass
+    second: {fileID: 2100000, guid: 8cc05860504684b309c51551f267e298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyGlossy
+    second: {fileID: 2100000, guid: 805a01b91e826445a8466479687b99fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyMatte
+    second: {fileID: 2100000, guid: 68375f5db8c9c449983711407e73c515, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

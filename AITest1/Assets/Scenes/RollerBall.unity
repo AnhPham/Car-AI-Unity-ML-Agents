@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrainingArea (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -227,6 +231,10 @@ PrefabInstance:
     - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
       propertyPath: m_Name
       value: TrainingArea (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -285,6 +293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrainingArea (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -341,6 +353,10 @@ PrefabInstance:
     - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
       propertyPath: m_Name
       value: TrainingArea (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -399,6 +415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrainingArea (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -455,6 +475,10 @@ PrefabInstance:
     - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
       propertyPath: m_Name
       value: TrainingArea (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -513,6 +537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrainingArea (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -555,7 +583,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.537
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -604,13 +632,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530687895}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.51946527, y: -0.32182166, z: 0.05185227, w: 0.7898722}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 58.649, y: -60.882, z: -29.025}
 --- !u!1 &1540260017
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +782,10 @@ PrefabInstance:
     - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
       propertyPath: m_Name
       value: TrainingArea (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215937589271026453, guid: c2f61dac4f1704d44a818a81490c7ed3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
