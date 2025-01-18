@@ -7,6 +7,7 @@
 [Uu]serSettings/
 _TerrainAutoUpgrade/
 _TerrainAutoUpgrade.meta
+results/
 
 # Visual Studio 2015 cache directory
 .vs/
