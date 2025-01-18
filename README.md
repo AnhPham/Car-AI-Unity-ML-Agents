@@ -1,29 +1,22 @@
-# README #
+# AI Test 1 #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Mac OS ###
 
-### What is this repository for? ###
+* Activate Virtual Environment
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+cd /Users/anhpham/Works/Python
+source mlagents-env/bin/activate
 
-### How do I get set up? ###
+* Deactivate Virtual Environment
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+deactivate
 
-### Contribution guidelines ###
+* Resume training
 
-* Writing tests
-* Code review
-* Other guidelines
+cd /Users/anhpham/Works/Projects/test-ai1/AITest1
+mlagents-learn config/car_config.yaml --run-id=Car --resume
 
-### Who do I talk to? ###
+* Force training from beginning
 
-* Repo owner or admin
-* Other community or team contact
+cd /Users/anhpham/Works/Projects/test-ai1/AITest1
+mlagents-learn config/car_config.yaml --run-id=Car --force
