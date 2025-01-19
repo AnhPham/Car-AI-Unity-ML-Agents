@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/RollerBall.unity
+    path: Assets/Scenes/Car.unity
     guid: b7bad856ebf5f456b8757fa34bb4d4c6
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
