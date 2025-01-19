@@ -83,9 +83,6 @@ public class CarAgent : Agent
         float distanceToTarget = Vector3.Distance(transform.localPosition, target.localPosition);
         float distanceToBehindTarget = Vector3.Distance(transform.localPosition, behindTarget.localPosition);
 
-        Debug.Log("transform.localPosition.y: " + transform.localPosition.y);
-        Debug.Log("target.localPosition.y: " + target.localPosition.y);
-
         if (target.localPosition.y > (transform.localPosition.y + 0.1f))
         {
             if (vInput < 0)
