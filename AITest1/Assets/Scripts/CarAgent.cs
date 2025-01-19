@@ -26,7 +26,7 @@ public class CarAgent : Agent
     const float rayDistance = 2.0f;
     const float fallY = -0.1f;
     const float sensitivity = 0.2f;
-    const float targetReachDistance = 10f;
+    const float targetReachDistance = 7f;
 
     public override void Initialize()
     {
@@ -83,6 +83,19 @@ public class CarAgent : Agent
         float distanceToTarget = Vector3.Distance(transform.localPosition, target.localPosition);
         float distanceToBehindTarget = Vector3.Distance(transform.localPosition, behindTarget.localPosition);
 
+        Debug.Log("transform.localPosition.y: " + transform.localPosition.y);
+        Debug.Log("target.localPosition.y: " + target.localPosition.y);
+
+        if (target.localPosition.y > (transform.localPosition.y + 0.1f))
+        {
+            if (vInput < 0)
+            {
+                SetCarReward(-1.0f);
+                EndEpisode();
+                return;
+            }
+        }
+
         if (distanceToBehindTarget <= targetReachDistance)
         {
             SetCarReward(-1.0f);
@@ -135,7 +148,7 @@ public class CarAgent : Agent
             stuckStepCount = 0;
         }
 
-        if (Vector3.Distance(initPosition, transform.localPosition) < 5)
+        if (Vector3.Distance(initPosition, transform.localPosition) < targetReachDistance)
         {
             hesitateStepCount++;
 
