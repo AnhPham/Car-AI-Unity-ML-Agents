@@ -1,5 +1,7 @@
 # Car AI - Unity ML #
 
+A simple guide to training your own AI car, using Unity ML Agents and built-in Wheel Collider
+
 ### Demo ###
 
 <p align="center">
