@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 18
+    VectorObservationSize: 11
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 2
@@ -262,18 +262,10 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
-  targets: []
-  carSensors:
-  - {fileID: 4860643043748934154}
-  - {fileID: 2146374346313252250}
-  - {fileID: 1652415128225242087}
-  - {fileID: 2596857743644881805}
-  - {fileID: 8707982284313296978}
-  - {fileID: 5099487348749519733}
+  target: {fileID: 0}
   carControl: {fileID: 582961138128180832}
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 64
+  head: {fileID: 4860643043748934154}
+  tail: {fileID: 2146374346313252250}
 --- !u!114 &6013863607210707089
 MonoBehaviour:
   m_ObjectHideFlags: 0
