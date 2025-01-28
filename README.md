@@ -1,59 +1,71 @@
-# AI Test 1 #
+# Car AI - Unity ML #
 
-### Mac OS ###
+### Demo ###
+
+<p align="center">
+  <img width="500px" src="/learn/unity/ai/car-ai-demo.gif?raw=true" alt="Demo">
+</p>
+
+### Training ###
+
+<p align="center">
+  <img width="500px" src="/learn/unity/ai/car-ai-training.gif?raw=true" alt="Demo">
+</p>
+
+### General ###
+
+#### Install Unity 2023.2 or higher & Python 3.10.12 ####
+
+https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md
+
+#### Create Virtual Environment ####
+
+https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Using-Virtual-Environment.md
+
+### Training AI on Mac OS ###
 
 #### Activate Virtual Environment ####
 
 ```console
-cd /Users/anhpham/Works/Python
-source mlagents-env/bin/activate
-```
-
-#### Deactivate Virtual Environment ####
-
-```console
-deactivate
+source [PATH TO VIRTUAL ENV]/bin/activate
 ```
 
 #### Resume training ####
 
 ```console
-cd /Users/anhpham/Works/Projects/test-ai1/AITest1
+cd [PATH TO UNITY PROJECT]
 mlagents-learn config/car_config.yaml --run-id=Car --resume
 ```
 
 #### Force training from beginning ####
 
 ```console
-cd /Users/anhpham/Works/Projects/test-ai1/AITest1
+cd [PATH TO UNITY PROJECT]
 mlagents-learn config/car_config.yaml --run-id=Car --force
 ```
 
-### Windows ###
+### Training AI on Windows ###
 
 #### Activate Virtual Environment ####
 
 ```console
-cd C:\Users\anhpt\Works\Python
-.venv\Scripts\activate
-```
-
-#### Deactivate Virtual Environment ####
-
-```console
-deactivate
+[PATH TO VIRTUAL ENV]\Scripts\activate
 ```
 
 #### Resume training ####
 
 ```console
-cd C:\Users\anhpt\Works\Projects\test-ai1\AITest1
-mlagents-learn config/car_config.yaml --run-id=Car --torch-device=cuda --resume
+cd [PATH TO UNITY PROJECT]
+mlagents-learn config/car_config.yaml --run-id=Car --resume --torch-device=cuda 
 ```
 
 #### Force training from beginning ####
 
 ```console
-cd C:\Users\anhpt\Works\Projects\test-ai1\AITest1
-mlagents-learn config/car_config.yaml --run-id=Car --torch-device=cuda --force
+cd [PATH TO UNITY PROJECT]
+mlagents-learn config/car_config.yaml --run-id=Car --force --torch-device=cuda
 ```
+
+### Using new AI Training Model ###
+
+Copy file from [PATH TO UNITY PROJECT]/results/Car/Car.onnx to [PATH TO UNITY PROJECT]/Assets/Models/Car.onnx
