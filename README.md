@@ -16,7 +16,7 @@ A simple guide to training your own AI car, using Unity ML Agents and built-in W
 
 ### General ###
 
-#### Install Unity 2023.2 or highe & Python 3.10.12 ####
+#### Install Unity 2023.2 or higher & Python 3.10.12 ####
 
 https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md
 
