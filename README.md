@@ -16,7 +16,7 @@ A simple guide to training your own AI car, using Unity ML Agents and built-in W
 
 ### General ###
 
-#### Install Unity 2023.2 or higher & Python 3.10.12 ####
+#### Install Unity 2023.2 or highe & Python 3.10.12 ####
 
 https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md
 
@@ -30,6 +30,12 @@ https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Using-Virtual-
 
 ```console
 source [PATH TO VIRTUAL ENV]/bin/activate
+```
+
+#### Install mlagents (if not installed) ####
+
+```console
+pip3 install mlagents
 ```
 
 #### Resume training ####
@@ -52,6 +58,12 @@ mlagents-learn config/car_config.yaml --run-id=Car --force
 
 ```console
 [PATH TO VIRTUAL ENV]\Scripts\activate
+```
+
+#### Install mlagents (if not installed) ####
+
+```console
+pip3 install mlagents
 ```
 
 #### Resume training ####
